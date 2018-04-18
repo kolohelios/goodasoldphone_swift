@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FC7754C22066E7FA00FF69E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7754C12066E7FA00FF69E1 /* AppDelegate.swift */; };
-		FC7754C42066E7FA00FF69E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7754C32066E7FA00FF69E1 /* ViewController.swift */; };
 		FC7754C72066E7FA00FF69E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7754C52066E7FA00FF69E1 /* Main.storyboard */; };
 		FC7754C92066E7FA00FF69E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7754C82066E7FA00FF69E1 /* Assets.xcassets */; };
 		FC7754CC2066E7FA00FF69E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7754CA2066E7FA00FF69E1 /* LaunchScreen.storyboard */; };
+		FC7754D62066EE9C00FF69E1 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7754D52066EE9C00FF69E1 /* ProductViewController.swift */; };
+		FC7754D82066F9AC00FF69E1 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7754D72066F9AC00FF69E1 /* ContactViewController.swift */; };
+		FC7754DA206705CC00FF69E1 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7754D9206705CC00FF69E1 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC7754BE2066E7F900FF69E1 /* GoodAsOldPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7754C12066E7FA00FF69E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC7754C32066E7FA00FF69E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC7754C62066E7FA00FF69E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC7754C82066E7FA00FF69E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7754CB2066E7FA00FF69E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7754CD2066E7FA00FF69E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7754D52066EE9C00FF69E1 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		FC7754D72066F9AC00FF69E1 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		FC7754D9206705CC00FF69E1 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				FC7754C12066E7FA00FF69E1 /* AppDelegate.swift */,
-				FC7754C32066E7FA00FF69E1 /* ViewController.swift */,
 				FC7754C52066E7FA00FF69E1 /* Main.storyboard */,
 				FC7754C82066E7FA00FF69E1 /* Assets.xcassets */,
 				FC7754CA2066E7FA00FF69E1 /* LaunchScreen.storyboard */,
 				FC7754CD2066E7FA00FF69E1 /* Info.plist */,
+				FC7754D52066EE9C00FF69E1 /* ProductViewController.swift */,
+				FC7754D72066F9AC00FF69E1 /* ContactViewController.swift */,
+				FC7754D9206705CC00FF69E1 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhone;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7754C42066E7FA00FF69E1 /* ViewController.swift in Sources */,
+				FC7754DA206705CC00FF69E1 /* ProductsTableViewController.swift in Sources */,
+				FC7754D62066EE9C00FF69E1 /* ProductViewController.swift in Sources */,
 				FC7754C22066E7FA00FF69E1 /* AppDelegate.swift in Sources */,
+				FC7754D82066F9AC00FF69E1 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
