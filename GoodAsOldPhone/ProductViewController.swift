@@ -13,14 +13,19 @@ class ProductViewController: UIViewController {
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var productImageView: UIImageView!
     
-    var productName: String?
+    var product: Product?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let product = product {
+            productNameLabel.text = product.name
+            if let productImage = product.productImage {
+                productImageView.image = UIImage(named: productImage)
+            }
+        }
         
-        productNameLabel.text = productName
 //        productImageView.image = UIImage(named: "phone-fullscreen3")
-        productImageView.image = #imageLiteral(resourceName: "phone-fullscreen3")
+//        productImageView.image = #imageLiteral(resourceName: "phone-fullscreen3")
         // Do any additional setup after loading the view.
     }
 
